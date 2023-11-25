@@ -1,0 +1,46 @@
+
+p{
+    text-align: center;
+}
+.wrapper{
+    padding: 0 20px;
+}
+
+.c-text p{
+    text-align: justify;
+}
+
+.h-content h2{
+    text-align: CE;
+}
+
+.comment{
+    background-color: rgba(95, 158, 160, 0.425);
+    padding: 20px;
+    
+}
+
+.comment h2{
+    text-align: left;
+    padding: 10px;
+}
+.manageComments{
+    padding-left: 10px;
+}
+
+.addComment input{
+    width: 65%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.addComment button{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.addComment .nameInput{
+    width: 30%;
+}

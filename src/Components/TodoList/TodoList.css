@@ -1,0 +1,29 @@
+li{
+    border: 1px solid grey;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px 0; */
+    margin: 10px 0;
+}
+
+li span{
+    /* border: 1px solid red; */
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.del{
+    border: 1px solid rgba(255, 0, 0, 0.767);
+    padding: 3px 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.comp{
+    border: 1px solid rgba(42, 63, 11, 0.973);
+    padding: 3px 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
