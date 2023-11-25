@@ -7,9 +7,9 @@ export default function App() {
   
   return (
     <div>
+      <Todos />
       <ArticlePage/>
       <Posts />
-      <Todos />
     </div>
   )
 }
