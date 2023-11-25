@@ -3,11 +3,14 @@
     padding: 0;
 
 }
+.single-post{
+    margin: 10px 0;
+}
 .post-bx{
     text-align: center;
     border: 1px solid green;
     background-color: #EEF5FF;
-    height: 200px;
+    /* height: 300px; */
 }
 
 .post-bx h3{
@@ -17,4 +20,37 @@
 
 .post-bx p{
     font-size: 16px;
+}
+
+.post-bx button{
+    background-color: teal;
+    padding: 8px 15px;
+    margin-top: 10px;
+}
+
+.comment-section {
+    text-align: left;
+    margin-left:10px;
+}
+
+.comment-section input{
+    width: 60%;
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #3a2c2c;
+}
+
+.comment-section ul{
+    margin: 10px;
+}
+
+.comment-section ul li{
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+button{
+    cursor: pointer;
 }

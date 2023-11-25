@@ -18,7 +18,7 @@ export default function Posts() {
     <div>
        <div className="postContainer">
         {
-        posts.map(post => <PostList post = {post}/>)
+        posts.map((post, index) => <PostList post = {post} index = {index}/>)
         }
        </div>
     </div>

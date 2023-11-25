@@ -7,8 +7,8 @@ export default function App() {
   
   return (
     <div>
-      {/* <ArticlePage/> */}
-      {/* <Posts /> */}
+      <ArticlePage/>
+      <Posts />
       <Todos />
     </div>
   )
